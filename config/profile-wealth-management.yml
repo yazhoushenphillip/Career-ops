@@ -1,0 +1,88 @@
+# Career-Ops Profile Configuration
+# Copy this file to config/profile.yml and fill in your details.
+# This is the single source of truth for your personal data across all modes.
+
+candidate:
+  full_name: "Maggie Wang"
+  email: "wangmaggie97@gmail.com"
+  phone: "+1-559-394-9264"
+  location: "Los Angeles, CA"
+  #linkedin: "linkedin.com/in/yazhou-shen"
+  #portfolio_url: "https://janesmith.dev"
+  #github: "github.com/yazhououshenphillip"
+  #twitter: "https://x.com/janesmith"
+  # (Optional) Canva resume design ID for visual CV generation via /career-ops pdf.
+  # Find it in your Canva design URL: https://www.canva.com/design/DAxxxxxxx/...
+  # The ID starts with "D" and is 11 characters long.
+  # canva_resume_design_id: "DAxxxxxxxxx"
+
+target_roles:
+  # Your North Star roles — what you're optimizing for
+  primary:
+    - "Private Wealth Management Analyst"
+    - "Registered Client Service Associate"
+    - "Financial Advisor"
+secondary:
+   
+
+
+  # Archetypes help the evaluation system score fit
+  archetypes:
+    - name: "Private Wealth Management Analyst"
+      level: "Associate"
+      fit: "primary"        # primary = dream role, secondary = good fit, adjacent = stretch
+    # - name: "AI Product Manager"
+    #   level: "Senior"
+    #   fit: "secondary"
+    # - name: "Solutions Architect"
+    #   level: "Mid-Senior"
+    #   fit: "adjacent"
+
+narrative:
+  # Your professional headline (1 line)
+  headline: "Private Wealth Management Analyst"
+  # Your exit story — what makes you unique
+  exit_story: "Supporting the FA/PWA/team in cultivating and enhancing new and existing client relationships
+            Executing money movement transactions at the request of the client and/or FA/PWA/team
+              Answering general non-investment related questions concerning client accounts, including relaying stock positions, and providing account balances (e.g., funds due and margin debit)
+              Enter profile information or pre-fill account documentation on client accounts and/or documents in aa clerical capacity at the direction of the client and/or FA/PWA/team
+              Educating or enrolling clients in digital tools (e.g. MSOnline, eSign, eAuthorization)
+              Onboard and maintain client accounts, including collecting client information and required documentation in a clerical capacity at the direction of the client and/or FA/PWA/team
+              Provide existing clients with details around their account information (e.g., investment objectives, risk tolerance)
+              Accept or enter unsolicited orders and/or enter solicited orders in a clerical capacity at the direction of the FA/PWA/team
+              Supporting the FAs / PWAs / teams’ marketing strategy (e.g., website maintenance)
+              Assist FAs / PWAs/ teams in delivering against their business plan and client service model
+              Remaining current on all policies, procedures, and new platforms
+              Participating in firm initiatives (e. g., training or education programs) , special projects and/or other duties directed by local management"
+  superpowers:
+    - "Financial analysis and modeling"
+    - "Customer relationship management"
+    - "Analyze portfolios and provide investment recommendations"
+  # Proof points — projects, articles, case studies with measurable impact
+  proof_points:
+    - name: "Help Morgan Stanley manage $2B+ in client assets"
+      #url: "https://janesmith.dev/project-alpha"
+      #hero_metric: "Helped US Navy save $1M/year by automating data analysis"
+    - name: "Built client relationships and provided personalized financial advice to high-net-worth individuals"
+      #url: "https://github.com/janesmith/tool"
+      #hero_metric: "Build up faster AI tools for FMB office in DoD, build dashboars being used in Congress meetings"
+  # Optional: dashboard/demo URL with credentials
+  # dashboard:
+  #   url: "https://janesmith.dev/demo"
+  #   password: "demo-2026"
+
+compensation:
+  target_range: "$100K-200K"     # Your target total comp
+  currency: "USD"
+  minimum: "$110K"               # Walk-away number
+  location_flexibility: "Remote preferred,  on-site possible"
+
+location:
+  country: "United States"
+  city: "Los Angeles"
+  timezone: "PST"
+  visa_status: "No sponsorship needed"
+  #Security Clearance: "Secret Clearance"
+  #Veteran Status: "Veteran"
+  # For remote roles outside your country:
+  # onsite_availability: "1 week/month in any city"
